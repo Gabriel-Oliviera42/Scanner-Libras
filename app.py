@@ -185,7 +185,7 @@ def executar_formacao_palavras(cap, hands_motor, modelo, ligar_camera):
 def executar_desafio(cap, hands_motor, modelo, ligar_camera):
     dificuldade = st.sidebar.radio("Modo de Jogo:", ["Treino", "Desafio"])
     
-    letras_jogo = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'I', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W']
+    letras_jogo = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'I', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'Y']
     
     # variaveis que uso no jogo 
     if 'recorde' not in st.session_state: st.session_state['recorde'] = 0
